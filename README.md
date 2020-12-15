@@ -1,4 +1,4 @@
-# string equalty test
+# string equalty test with functional encryption
 This project develops a string equalty test using the euclidean distance between the strings.
 Strings are represented as vectors and they are encrypted using functional encryption by a client. Then a partial trusted authority will compute the euclidean distance between the encrypted vectors without knowing anything about the original vectors. Finally it sends back the result to the client.
 The adopted schema is the quadratic polynomial [SGP](https://eprint.iacr.org/2018/206.pdf), since we have to compute the euclidean distance. Functional encryption library used is [gofe](https://github.com/fentec-project/gofe).
