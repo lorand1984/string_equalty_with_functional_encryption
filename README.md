@@ -1,5 +1,4 @@
-# recommender system with functional encryption
-
+# string equalty test
 This project aims at developing a recommender system that expoloits the euclidean distance for computing similarity between a client preference and the elements of the dataset, or between two elements of the dataset.
 Elements and preference are represented as vectors and are encrypted using functional encryption by the client. Then a partial trusted authority will compute the euclidean distance between the encrypted vectors without knowing anything about the original vectors. Finally it sends back the result to the client.
 The adopted schema is the same used for the classification task, the quadratic polynomial [SGP](https://eprint.iacr.org/2018/206.pdf), since we have to compute the euclidean distance.
