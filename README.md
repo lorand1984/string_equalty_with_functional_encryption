@@ -15,6 +15,6 @@ The adopted schema is the same used for the classification task, the quadratic p
 
 ## ISSUES
 - Verify who has to send the plain matrix D to the authority for computing the fKey.
-- Performance: in order to perform a recommendation and thus a final ranking, a partial authority should compute the euclidean distance between a client preference and each row of the dataset.   
+- Do the same task with inner product    
 
 
