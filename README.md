@@ -6,7 +6,7 @@ The adopted schema is the same used for the classification task, the quadratic p
 
 ## Diagram
 
-![](./sequence.png) 
+![](./sequence_eq_test.png) 
 
 ## Files
 - create_polys_and_D_matrix.py: given two vectors of chars, stores the corresponding polX, polY and the matrix D in the data directory. This is just a workaround, this part will be done directly in go. 
