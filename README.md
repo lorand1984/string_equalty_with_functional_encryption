@@ -12,7 +12,6 @@ The adopted schema is the quadratic polynomial [SGP](https://eprint.iacr.org/201
 - main.go: includes the operations for generating keys, encrypting vectors and decrypting: if the result of decryption is true, this means that the distance among the vectors of chars is zero, therefore they are equal.   
 
 ## ISSUES
-- Verify who has to send the plain matrix D to the authority for computing the fKey.
- - Note: a same task could be done with inner product using a vector containing polynomial coefficients and another containing the terms of the two strings     
+- Verify who has to send the plain matrix D to the authority for computing the fKey (Note: a same task could be done with inner product using a vector containing polynomial coefficients and another that contains the terms of the two strings).     
 
 
