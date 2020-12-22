@@ -13,6 +13,6 @@ The adopted schema is the quadratic polynomial [SGP](https://eprint.iacr.org/201
 
 ## ISSUES
 - Verify who has to send the plain matrix D to the authority for computing the fKey.
-- Do the same task with inner product    
+- Do the same task with inner product, since currently a polynomial schema is used    
 
 
